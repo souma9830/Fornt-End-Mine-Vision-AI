@@ -18,12 +18,17 @@ const team = [
   },
   {
     name: "Rajdeep Paul",
-    role: "...",
+    role: "Data Analyst",
     img: "https://via.placeholder.com/300x300.png?text=Alex",
   },
   {
     name: "Subhranil Mondal",
-    role: "...",
+    role: "ML Developer",
+    img: "https://via.placeholder.com/300x300.png?text=Alex",
+  },
+  {
+    name: "Pracheta Betal",
+    role: "Speaker & Designer",
     img: "https://via.placeholder.com/300x300.png?text=Alex",
   },
 ];
@@ -61,7 +66,7 @@ const Team = () => {
         </motion.p>
 
         {/* Team Members */}
-        <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-4">
+        <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-3">
           {team.map((member, index) => (
             <motion.div
               key={index}
