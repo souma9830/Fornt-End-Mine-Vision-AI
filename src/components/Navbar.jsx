@@ -13,7 +13,7 @@ const Navbar = () => {
         <ul className="hidden md:flex gap-8 text-lg">
           <li><a href="#home" className="hover:text-accent">Home</a></li>
           <li><a href="#about" className="hover:text-accent">About</a></li>
-          <li><a href="#services" className="hover:text-accent">Services</a></li>
+          <li><a href="#services" className="hover:text-accent">Features</a></li>
           <li><a href="#contact" className="hover:text-accent">Contact</a></li>
         </ul>
         <button className="md:hidden text-white">☰</button>

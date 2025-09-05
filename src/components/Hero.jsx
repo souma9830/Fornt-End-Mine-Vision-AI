@@ -81,14 +81,14 @@ const Hero = () => {
         <div className="flex justify-center gap-6 m-10">
           <motion.a
             whileHover={{ scale: 1.05 }}
-            href="#services"
+            href="#features"
             className="bg-accent px-8 py-3 rounded-full text-black font-semibold uppercase"
           >
             Dashboard
           </motion.a>
           <motion.a
             whileHover={{ scale: 1.05 }}
-            href="#services"
+            href="#features"
             className="bg-accent px-8 py-3 rounded-full text-black font-semibold uppercase"
           >
             Watch a Demo

@@ -3,14 +3,23 @@ import { fadeInUp } from "../utils/animations";
 import servicesImg from "../assets/services.jpg";
 
 const services = [
-  { title: "Computer Vision Monitoring", desc: "Real-time video analytics for mining operations." },
-  { title: "AI-Powered Safety", desc: "Automated hazard detection & worker safety alerts." },
-  { title: "Predictive Maintenance", desc: "Machine learning models to reduce downtime." },
+  {
+    title: "Computer Vision Monitoring",
+    desc: "Real-time video analytics for mining operations.",
+  },
+  {
+    title: "AI-Powered Safety",
+    desc: "Automated hazard detection & worker safety alerts.",
+  },
+  {
+    title: "Predictive Maintenance",
+    desc: "Machine learning models to reduce downtime.",
+  },
 ];
 
 const Services = () => {
   return (
-    <section id="services" className="py-20 bg-primary/95">
+    <section id="features" className="py-20 bg-primary/95">
       <div className="max-w-7xl mx-auto px-6 text-center">
         <motion.h2
           variants={fadeInUp}
@@ -19,7 +28,7 @@ const Services = () => {
           viewport={{ once: true }}
           className="text-4xl font-bold text-accent mb-12"
         >
-          Our Services
+          Features
         </motion.h2>
         <div className="grid md:grid-cols-3 gap-10">
           {services.map((s, i) => (
