@@ -3,22 +3,27 @@ import { motion } from "framer-motion";
 const team = [
   {
     name: "Sajal Pakira",
-    role: "AI Engineer",
+    role: "Full Stack Developer",
     img: "https://via.placeholder.com/300x300.png?text=Sajal",
   },
   {
-    name: "John Doe",
+    name: "Soumadeep Shee",
     role: "Frontend Developer",
-    img: "https://via.placeholder.com/300x300.png?text=John",
+    img: "https://www.linkedin.com/in/soumadeep-s/overlay/photo/",
   },
   {
-    name: "Jane Smith",
-    role: "Backend Developer",
+    name: "Sarthak Dutta",
+    role: "Designer",
     img: "https://via.placeholder.com/300x300.png?text=Jane",
   },
   {
-    name: "Alex Johnson",
-    role: "Data Scientist",
+    name: "Rajdeep Paul",
+    role: "...",
+    img: "https://via.placeholder.com/300x300.png?text=Alex",
+  },
+  {
+    name: "Subhranil Mondal",
+    role: "...",
     img: "https://via.placeholder.com/300x300.png?text=Alex",
   },
 ];
@@ -27,7 +32,6 @@ const Team = () => {
   return (
     <section id="team" className="py-20 bg-black text-white">
       <div className="max-w-6xl mx-auto px-6 text-center">
-        
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -37,7 +41,6 @@ const Team = () => {
           Meet The Crew
         </motion.div>
 
-        {/* Heading */}
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}

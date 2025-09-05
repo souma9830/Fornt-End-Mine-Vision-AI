@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { fadeInLeft, fadeInRight } from "../utils/animations";
-import aboutImg from "../assets/about.jpg";
+import aboutImg from "../assets/about.png";
 
 const About = () => {
   return (
