@@ -5,11 +5,11 @@ import aboutImg from "../assets/about.png";
 const About = () => {
   return (
     <section id="about" className="py-20 bg-primary">
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div className="grid items-center gap-12 px-6 mx-auto max-w-7xl md:grid-cols-2">
         <motion.img
           src={aboutImg}
           alt="About"
-          className="rounded-2xl shadow-lg"
+          className="shadow-lg rounded-2xl"
           variants={fadeInLeft}
           initial="hidden"
           whileInView="visible"
@@ -21,8 +21,8 @@ const About = () => {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl font-bold text-accent mb-6">About MineVisionAI</h2>
-          <p className="text-gray-300 leading-relaxed">
+          <h2 className="mb-6 text-4xl font-bold text-accent">About MineVisionAI</h2>
+          <p className="leading-relaxed text-gray-300">
             MineVisionAI is an innovative platform leveraging AI and computer
             vision to transform mining operations. We optimize resource
             extraction, improve safety, and drive sustainability in the

@@ -35,13 +35,13 @@ const team = [
 
 const Team = () => {
   return (
-    <section id="team" className="py-20 bg-black text-white">
-      <div className="max-w-6xl mx-auto px-6 text-center">
+    <section id="team" className="py-20 text-white bg-black">
+      <div className="max-w-6xl px-6 mx-auto text-center">
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="inline-block bg-white/10 px-4 py-1 rounded-full text-sm uppercase tracking-wide text-gray-300 mb-4"
+          className="inline-block px-4 py-1 mb-4 text-sm tracking-wide text-gray-300 uppercase rounded-full bg-white/10"
         >
           Meet The Crew
         </motion.div>
@@ -50,7 +50,7 @@ const Team = () => {
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
-          className="text-4xl md:text-5xl font-bold mb-4"
+          className="mb-4 text-4xl font-bold md:text-5xl"
         >
           Our Crew <span className="text-accent">Our Strength</span>
         </motion.h2>
@@ -60,7 +60,7 @@ const Team = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.9 }}
-          className="text-gray-400 max-w-2xl mx-auto mb-12"
+          className="max-w-2xl mx-auto mb-12 text-gray-400"
         >
           Get to know the team building the future of safety.
         </motion.p>
@@ -73,12 +73,12 @@ const Team = () => {
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: index * 0.2 }}
-              className="bg-gray-900 p-6 rounded-2xl shadow-lg hover:shadow-xl transition"
+              className="p-6 transition bg-gray-900 shadow-lg rounded-2xl hover:shadow-xl"
             >
               <img
                 src={member.img}
                 alt={member.name}
-                className="w-32 h-32 mx-auto rounded-full mb-4 border-2 border-accent/60 object-cover"
+                className="object-cover w-32 h-32 mx-auto mb-4 border-2 rounded-full border-accent/60"
               />
               <h3 className="text-xl font-semibold">{member.name}</h3>
               <p className="text-gray-400">{member.role}</p>

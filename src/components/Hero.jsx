@@ -50,7 +50,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative h-screen w-screen flex items-center justify-center text-center overflow-hidden p-10"
+      className="relative flex items-center justify-center w-screen h-screen p-10 overflow-hidden text-center"
     >
       <div className="absolute inset-0">
         <Canvas camera={{ position: [0, 0, 5] }}>
@@ -62,19 +62,19 @@ const Hero = () => {
         </Canvas>
       </div>
 
-      <div className="absolute inset-0 bg-black/70 z-0" />
+      <div className="absolute inset-0 z-0 bg-black/70" />
 
       <motion.div
         variants={fadeInUp}
         initial="hidden"
         animate="visible"
-        className="relative z-10 text-white max-w-7xl px-4 flex flex-col items-center mt-16"
+        className="relative z-10 flex flex-col items-center px-4 mt-16 text-white max-w-7xl"
       >
-        <h1 className="text-5xl md:text-8xl font-bold mb-6 ">
+        <h1 className="mb-6 text-5xl font-bold md:text-8xl ">
           AI-Powered Mining
         </h1>
-        <h1 className="text-5xl md:text-8xl font-bold mb-6 ">Solutions</h1>
-        <p className=" text-lg md:text-xl mb-8 text-gray-200 max-w-xl">
+        <h1 className="mb-6 text-5xl font-bold md:text-8xl ">Solutions</h1>
+        <p className="max-w-xl mb-8 text-lg text-gray-200  md:text-xl">
           AI-powered rockfall prediction system for open-pit mines. Helping you
           prevent risks before they become disasters.
         </p>
@@ -82,14 +82,14 @@ const Hero = () => {
           <motion.a
             whileHover={{ scale: 1.05 }}
             href="#features"
-            className="bg-accent px-8 py-3 rounded-full text-black font-semibold uppercase"
+            className="px-8 py-3 font-semibold text-black uppercase rounded-full bg-accent"
           >
             Watch a Demo
           </motion.a>
           <motion.a
             whileHover={{ scale: 1.05 }}
             href="#features"
-            className="bg-accent px-8 py-3 rounded-full text-black font-semibold uppercase"
+            className="px-8 py-3 font-semibold text-black uppercase rounded-full bg-accent"
           >
             Dashboard
           </motion.a>
