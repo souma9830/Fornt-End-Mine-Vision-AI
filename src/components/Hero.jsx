@@ -74,7 +74,7 @@ const Hero = () => {
           AI-Powered Mining
         </h1>
         <h1 className="mb-6 text-5xl font-bold md:text-8xl ">Solutions</h1>
-        <p className="max-w-xl mb-8 text-lg text-gray-200  md:text-xl">
+        <p className="max-w-xl mb-8 text-lg text-gray-200 md:text-xl">
           AI-powered rockfall prediction system for open-pit mines. Helping you
           prevent risks before they become disasters.
         </p>
