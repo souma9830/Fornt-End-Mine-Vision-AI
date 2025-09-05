@@ -84,14 +84,14 @@ const Hero = () => {
             href="#features"
             className="bg-accent px-8 py-3 rounded-full text-black font-semibold uppercase"
           >
-            Dashboard
+            Watch a Demo
           </motion.a>
           <motion.a
             whileHover={{ scale: 1.05 }}
             href="#features"
             className="bg-accent px-8 py-3 rounded-full text-black font-semibold uppercase"
           >
-            Watch a Demo
+            Dashboard
           </motion.a>
         </div>
       </motion.div>
