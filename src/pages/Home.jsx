@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 import useGsapAnimations from "../hooks/useGsapAnimations";
 
 const Home = () => {
-  // enable GSAP scroll animations
+  
   useGsapAnimations();
 
   return (
