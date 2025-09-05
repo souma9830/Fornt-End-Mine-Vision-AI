@@ -1,4 +1,5 @@
-import { useEffect } from "react";
+
+import Home from './pages/Home'
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -12,12 +13,7 @@ function App() {
 
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <About />
-      <Services />
-      <Contact />
-      <Footer />
+      <Home/>
     </div>
   );
 }
