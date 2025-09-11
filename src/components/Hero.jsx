@@ -360,11 +360,6 @@
 
 // export default Hero;
 
-
-
-
-
-
 import { motion } from "framer-motion";
 import { fadeInUp } from "../utils/animations";
 import { FaTimes } from "react-icons/fa";
@@ -479,38 +474,6 @@ const Hero = () => {
             Advanced AI systems monitoring mine stability in real-time
           </p>
         </div>
-
-        {/* News Ticker */}
-        {showNewsTicker && (
-          <div className="relative w-full max-w-6xl px-4 py-2 text-red-800 bg-red-100 border border-red-200 rounded-lg shadow-sm">
-            <div className="flex items-center justify-center">
-              <span className="mr-2 font-bold">BREAKING:</span>
-              <div className="h-8 overflow-hidden">
-                <div
-                  className="transition-transform duration-500"
-                  style={{
-                    transform: `translateY(-${currentNewsIndex * 32}px)`, // 32px per row
-                  }}
-                >
-                  {newsItems.map((item, index) => (
-                    <div
-                      key={index}
-                      className="flex items-center h-8 text-sm md:text-base"
-                    >
-                      {item}
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-            <button
-              className="absolute transform -translate-y-1/2 text-red-500 right-3 top-1/2 hover:text-red-700"
-              onClick={() => setShowNewsTicker(false)}
-            >
-              <FaTimes />
-            </button>
-          </div>
-        )}
       </main>
 
       {/* Hero Text */}
@@ -550,6 +513,38 @@ const Hero = () => {
           </motion.a>
         </div>
       </motion.div>
+
+      {/* News Ticker */}
+      {showNewsTicker && (
+        <div className="relative w-full max-w-6xl px-4 py-2 text-red-800 bg-red-100 border border-red-200 rounded-lg shadow-sm">
+          <div className="flex items-center justify-center">
+            <span className="mr-2 font-bold">BREAKING:</span>
+            <div className="h-8 overflow-hidden">
+              <div
+                className="transition-transform duration-500"
+                style={{
+                  transform: `translateY(-${currentNewsIndex * 32}px)`, // 32px per row
+                }}
+              >
+                {newsItems.map((item, index) => (
+                  <div
+                    key={index}
+                    className="flex items-center h-8 text-sm md:text-base"
+                  >
+                    {item}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+          <button
+            className="absolute transform -translate-y-1/2 text-red-500 right-3 top-1/2 hover:text-red-700"
+            onClick={() => setShowNewsTicker(false)}
+          >
+            <FaTimes />
+          </button>
+        </div>
+      )}
     </section>
   );
 };

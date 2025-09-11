@@ -36,8 +36,6 @@
 
 // export default About;
 
-
-
 import { motion } from "framer-motion";
 import { fadeInLeft, fadeInRight } from "../utils/animations";
 import aboutImg from "../assets/about.png";
