@@ -183,10 +183,6 @@
 
 // export default Navbar;
 
-
-
-
-
 import logo from "../assets/logo.png";
 import { useState, useEffect } from "react";
 
@@ -248,7 +244,7 @@ const Navbar = () => {
 
           {/* Desktop Links */}
           <ul className="hidden space-x-10 font-semibold tracking-wide text-gray-800 select-none lg:flex">
-            {["home", "features", "about", "contact"].map((item) => (
+            {["home", "features", "about"].map((item) => (
               <li key={item} className="relative group">
                 <a
                   href={`#${item}`}

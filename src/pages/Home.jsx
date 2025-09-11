@@ -11,7 +11,7 @@ const Home = () => {
   useGsapAnimations();
 
   return (
-    <div className="bg-primary text-white">
+    <div className="bg-white text-gray-900">
       <Navbar />
       <Hero />
       <About />
