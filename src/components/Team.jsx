@@ -98,27 +98,27 @@ const team = [
   {
     name: "Sajal Pakira",
     role: "Full Stack Developer",
-    img: "",
+    img: "/sajal.jpg",
   },
   {
     name: "Soumadeep Shee",
     role: "Frontend Developer",
-    img: "../public/shee.jpeg",
+    img: "/shee.jpeg",
   },
   {
     name: "Sarthak Dutta",
-    role: "Designer",
-    img: "https://via.placeholder.com/300x300.png?text=Sarthak",
+    role: "Designer & Speaker",
+    img: "/sarthak.jpeg",
   },
   {
     name: "Rajdeep Paul",
     role: "Data Analyst",
-    img: "https://via.placeholder.com/300x300.png?text=Rajdeep",
+    img: "/raj.png",
   },
   {
     name: "Subhranil Mondal",
     role: "ML Developer",
-    img: "https://via.placeholder.com/300x300.png?text=Subhranil",
+    img: "/subh.jpeg",
   },
   {
     name: "Pracheta Betal",
