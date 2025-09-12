@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Button } from "../components/ui/button";
+import Features from "./Features";
 import {
   Card,
   CardContent,
@@ -48,7 +49,8 @@ export default function About() {
         </div>
       </section>
 
-      {/* Features Section */}
+      <Features/>
+      {/* Features Section
      <section className="py-20 px-6 bg-slate-50">
   <div className="max-w-7xl mx-auto">
     <div className="text-center mb-16">
@@ -63,7 +65,7 @@ export default function About() {
 
     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
       {/* Real-Time Risk Maps */}
-      <Card className="bg-white border-2 border-blue-100 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
+      {/* <Card className="bg-white border-2 border-blue-100 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
         <CardHeader className="flex flex-row items-center space-x-4 p-6">
           <BarChart3 className="h-10 w-10 text-blue-600" />
           <CardTitle className="text-xl font-semibold text-slate-900">
@@ -76,10 +78,10 @@ export default function About() {
             assessment overlays
           </CardDescription>
         </CardContent>
-      </Card>
+      </Card> */}
 
       {/* Probability-Based Forecasts */}
-      <Card className="bg-white border-2 border-emerald-100 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
+      {/* <Card className="bg-white border-2 border-emerald-100 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
         <CardHeader className="flex flex-row items-center space-x-4 p-6">
           <Brain className="h-10 w-10 text-emerald-600" />
           <CardTitle className="text-xl font-semibold text-slate-900">
@@ -92,10 +94,10 @@ export default function About() {
             safety measures
           </CardDescription>
         </CardContent>
-      </Card>
+      </Card> */}
 
       {/* Smart Alerts */}
-      <Card className="bg-white border-2 border-purple-100 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
+      {/* <Card className="bg-white border-2 border-purple-100 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
         <CardHeader className="flex flex-row items-center space-x-4 p-6">
           <Bell className="h-10 w-10 text-purple-600" />
           <CardTitle className="text-xl font-semibold text-slate-900">
@@ -108,10 +110,10 @@ export default function About() {
             safety protocols
           </CardDescription>
         </CardContent>
-      </Card>
+      </Card> */}
 
       {/* Scalable & Cost-Effective */}
-      <Card className="bg-white border-2 border-orange-100 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
+      {/* <Card className="bg-white border-2 border-orange-100 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
         <CardHeader className="flex flex-row items-center space-x-4 p-6">
           <TrendingUp className="h-10 w-10 text-orange-600" />
           <CardTitle className="text-xl font-semibold text-slate-900">
@@ -126,7 +128,7 @@ export default function About() {
       </Card>
     </div>
   </div>
-    </section>
+    </section> */}
 
       {/* How It Works Section */}
      <section className="py-20 px-6 bg-slate-100">
