@@ -123,7 +123,7 @@ const team = [
   {
     name: "Pracheta Betal",
     role: "Speaker & Designer",
-    img: "https://via.placeholder.com/300x300.png?text=Pracheta",
+    img: "/pracheta.jpg",
   },
 ];
 
