@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { fadeInUp } from "../utils/animations";
-import { FaTimes } from "react-icons/fa";
 import { useState, useEffect } from "react";
 
 const Hero = () => {

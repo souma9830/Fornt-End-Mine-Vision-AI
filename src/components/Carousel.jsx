@@ -1,7 +1,7 @@
 import { FaArrowRight, FaTimes } from "react-icons/fa";
 import { useState, useEffect } from "react";
 
-function Corousel() {
+function Carousel() {
   const newsItems = [
     " ALERT: High rockfall risk predicted in Sector B-12 today",
     " System Update: New prediction algorithm deployed with 95% accuracy",
@@ -130,4 +130,4 @@ function Corousel() {
   );
 }
 
-export default Corousel;
+export default Carousel;
