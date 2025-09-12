@@ -17,48 +17,7 @@ export default function About() {
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-800">
-      {/* Hero Section */}
-      {/* <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{
-            backgroundImage:
-              "url('/open-pit-mine-with-rocky-slopes-industrial-mining-.jpg')",
-          }}
-        />
-        
-        <div className="absolute inset-0 bg-gradient-to-br from-white/50 via-slate-100/70 to-blue-200/60" />
-
-        
-        <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
-          <h1 className="text-6xl md:text-7xl font-bold mb-6 text-balance text-slate-900 [text-shadow:0_2px_4px_rgba(255,255,255,0.2)]">
-            Mine Vision AI
-          </h1>
-          <p className="text-xl md:text-2xl mb-8 text-slate-700 max-w-3xl mx-auto text-balance">
-            AI-Based Rockfall Prediction & Alert System – Enhancing mine safety
-            with predictive analytics and real-time monitoring.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              size="lg"
-              className="text-lg px-8 py-6 bg-blue-600 hover:bg-blue-700 text-white"
-              onClick={() => navigate("/dashboard")}
-            >
-              <Eye className="mr-2 h-5 w-5" />
-              View Dashboard Demo
-            </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="text-lg px-8 py-6 border-blue-600 text-blue-600 hover:bg-blue-50 hover:text-blue-700"
-            >
-              Learn More
-            </Button>
-          </div>
-        </div>
-      </section> */}
-
+     
       {/* About/Problem Section */}
       <section className="py-20 px-6">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
