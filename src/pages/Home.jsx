@@ -6,6 +6,7 @@ import Features from "../components/Features";
 import Footer from "../components/Footer";
 import useGsapAnimations from "../hooks/useGsapAnimations";
 import Team from "../components/Team";
+import Corousel from "../components/corousel";
 
 const Home = () => {
   useGsapAnimations();
@@ -14,6 +15,7 @@ const Home = () => {
     <div className="bg-white text-gray-900">
       <Navbar />
       <Hero />
+      <Corousel />
       <About />
       <Features />
       <Team />
