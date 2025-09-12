@@ -12,6 +12,7 @@ import { Input } from "../components/ui/input";
 import { Textarea } from "../components/ui/textarea";
 import { BarChart3, Eye, Brain, Bell, TrendingUp } from "lucide-react";
 import HowItWorks from "./HowItWork";
+import ImpactStats from "./Impact";
 
 
 export default function About() {
@@ -57,32 +58,7 @@ export default function About() {
 
 
       {/* Impact Section */}
-      <section className="py-20 px-6 bg-white border-y border-slate-200">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-8 text-slate-900">
-            Proven Impact
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div>
-              <div className="text-5xl font-bold text-blue-600 mb-2">60%</div>
-              <p className="text-lg text-slate-600">
-                Reduction in rockfall-related delays
-              </p>
-            </div>
-            <div>
-              <div className="text-5xl font-bold text-indigo-600 mb-2">500+</div>
-              <p className="text-lg text-slate-600">Personnel protected daily</p>
-            </div>
-            <div>
-              <div className="text-5xl font-bold text-cyan-600 mb-2">$2M+</div>
-              <p className="text-lg text-slate-600">
-                Annual cost savings achieved
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
+    <ImpactStats/>
       
     </div>
   );

@@ -62,8 +62,8 @@ const HowItWorks = () => {
           viewport={{ once: true }}
           className="text-center mb-20"
         >
-          <div className="inline-flex items-center justify-center px-4 py-2 rounded-full bg-slate-100 border border-slate-200 mb-6">
-            <span className="text-sm font-medium text-slate-700">OUR PROCESS</span>
+          <div className="inline-flex items-center justify-center px-4 py-2 rounded-full bg-sky-500 text-white border border-slate-200 mb-6">
+            <span className="text-sm font-medium text-white">OUR PROCESS</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-slate-900 tracking-tight">
             Intelligent <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Rockfall Prediction</span> System
@@ -104,7 +104,7 @@ const HowItWorks = () => {
                       rotate: 5,
                     }}
                   >
-                    <span className="text-2xl font-bold absolute -top-2 -right-2 w-6 h-6 bg-slate-900 rounded-full text-xs flex items-center justify-center">
+                    <span className="text-[2xl] font-bold absolute -top-2 -right-2 w-6 h-6 bg-slate-900 rounded-full text-xs flex items-center justify-center">
                       {step.index}
                     </span>
                     {step.icon}
