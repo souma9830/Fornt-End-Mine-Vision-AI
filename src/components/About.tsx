@@ -11,6 +11,7 @@ import {
 import { Input } from "../components/ui/input";
 import { Textarea } from "../components/ui/textarea";
 import { BarChart3, Eye, Brain, Bell, TrendingUp } from "lucide-react";
+import HowItWorks from "./HowItWork";
 
 
 export default function About() {
@@ -50,83 +51,9 @@ export default function About() {
       </section>
 
       <Feature/>
-      
+
       {/* How It Works Section */}
-     <section className="py-20 px-6 bg-slate-100">
-  <div className="max-w-7xl mx-auto">
-    <div className="text-center mb-16">
-      <h2 className="text-4xl font-bold mb-4 text-slate-900">
-        How It Works
-      </h2>
-      <p className="text-xl text-slate-700">
-        A streamlined four-step process for comprehensive rockfall
-        prediction
-      </p>
-    </div>
-
-    <div className="grid md:grid-cols-4 gap-8 text-center">
-      {/* Step 1: Data Collection */}
-      <div className="flex flex-col items-center">
-        <div
-          className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 bg-red-500 text-white shadow-md"
-        >
-          <span className="text-2xl font-bold">1</span>
-        </div>
-        <h3 className="text-xl font-semibold mb-2 text-slate-900">
-          Data Collection
-        </h3>
-        <p className="text-slate-600 leading-relaxed">
-          DEM, drone images, sensors, and environmental data gathering
-        </p>
-      </div>
-
-      {/* Step 2: AI Processing */}
-      <div className="flex flex-col items-center">
-        <div
-          className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 bg-yellow-400 text-slate-900 shadow-md"
-        >
-          <span className="text-2xl font-bold">2</span>
-        </div>
-        <h3 className="text-xl font-semibold mb-2 text-slate-900">
-          AI Processing
-        </h3>
-        <p className="text-slate-600 leading-relaxed">
-          Advanced pattern detection and risk analysis algorithms
-        </p>
-      </div>
-
-      {/* Step 3: Risk Visualization */}
-      <div className="flex flex-col items-center">
-        <div
-          className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 bg-fuchsia-500 text-white shadow-md"
-        >
-          <span className="text-2xl font-bold">3</span>
-        </div>
-        <h3 className="text-xl font-semibold mb-2 text-slate-900">
-          Risk Visualization
-        </h3>
-        <p className="text-slate-600 leading-relaxed">
-          Interactive maps and predictive forecasts generation
-        </p>
-      </div>
-
-      {/* Step 4: Alerts & Action */}
-      <div className="flex flex-col items-center">
-        <div
-          className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 bg-green-500 text-white shadow-md"
-        >
-          <span className="text-2xl font-bold">4</span>
-        </div>
-        <h3 className="text-xl font-semibold mb-2 text-slate-900">
-          Alerts & Action
-        </h3>
-        <p className="text-slate-600 leading-relaxed">
-          Automated notifications and safety protocol activation
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
+    <HowItWorks/>
 
 
       {/* Impact Section */}
