@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Button } from "../components/ui/button";
-import Features from "./Features";
+import Feature from "./Feature";
 import {
   Card,
   CardContent,
@@ -49,87 +49,8 @@ export default function About() {
         </div>
       </section>
 
-      <Features/>
-      {/* Features Section
-     <section className="py-20 px-6 bg-slate-50">
-  <div className="max-w-7xl mx-auto">
-    <div className="text-center mb-16">
-      <h2 className="text-4xl font-bold mb-4 text-slate-900">
-        Advanced Safety Features
-      </h2>
-      <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-        Comprehensive AI-powered tools designed specifically for mining safety
-        operations
-      </p>
-    </div>
-
-    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-      {/* Real-Time Risk Maps */}
-      {/* <Card className="bg-white border-2 border-blue-100 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
-        <CardHeader className="flex flex-row items-center space-x-4 p-6">
-          <BarChart3 className="h-10 w-10 text-blue-600" />
-          <CardTitle className="text-xl font-semibold text-slate-900">
-            Real-Time Risk Maps
-          </CardTitle>
-        </CardHeader>
-        <CardContent className="px-6 pb-6 pt-0">
-          <CardDescription className="text-base text-slate-600 leading-relaxed">
-            Visualizing vulnerable zones instantly with color-coded risk
-            assessment overlays
-          </CardDescription>
-        </CardContent>
-      </Card> */}
-
-      {/* Probability-Based Forecasts */}
-      {/* <Card className="bg-white border-2 border-emerald-100 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
-        <CardHeader className="flex flex-row items-center space-x-4 p-6">
-          <Brain className="h-10 w-10 text-emerald-600" />
-          <CardTitle className="text-xl font-semibold text-slate-900">
-            Probability-Based Forecasts
-          </CardTitle>
-        </CardHeader>
-        <CardContent className="px-6 pb-6 pt-0">
-          <CardDescription className="text-base text-slate-600 leading-relaxed">
-            AI-driven risk scoring with predictive analytics for proactive
-            safety measures
-          </CardDescription>
-        </CardContent>
-      </Card> */}
-
-      {/* Smart Alerts */}
-      {/* <Card className="bg-white border-2 border-purple-100 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
-        <CardHeader className="flex flex-row items-center space-x-4 p-6">
-          <Bell className="h-10 w-10 text-purple-600" />
-          <CardTitle className="text-xl font-semibold text-slate-900">
-            Smart Alerts
-          </CardTitle>
-        </CardHeader>
-        <CardContent className="px-6 pb-6 pt-0">
-          <CardDescription className="text-base text-slate-600 leading-relaxed">
-            Instant SMS & Email notifications to personnel with actionable
-            safety protocols
-          </CardDescription>
-        </CardContent>
-      </Card> */}
-
-      {/* Scalable & Cost-Effective */}
-      {/* <Card className="bg-white border-2 border-orange-100 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
-        <CardHeader className="flex flex-row items-center space-x-4 p-6">
-          <TrendingUp className="h-10 w-10 text-orange-600" />
-          <CardTitle className="text-xl font-semibold text-slate-900">
-            Scalable & Cost-Effective
-          </CardTitle>
-        </CardHeader>
-        <CardContent className="px-6 pb-6 pt-0">
-          <CardDescription className="text-base text-slate-600 leading-relaxed">
-            Adaptable to different mine sizes and operations with proven ROI
-          </CardDescription>
-        </CardContent>
-      </Card>
-    </div>
-  </div>
-    </section> */}
-
+      <Feature/>
+      
       {/* How It Works Section */}
      <section className="py-20 px-6 bg-slate-100">
   <div className="max-w-7xl mx-auto">
