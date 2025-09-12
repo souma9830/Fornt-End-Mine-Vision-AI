@@ -11,6 +11,7 @@ import { Input } from "../components/ui/input";
 import { Textarea } from "../components/ui/textarea";
 import { BarChart3, Eye, Brain, Bell, TrendingUp } from "lucide-react";
 
+
 export default function About() {
   const navigate = useNavigate();
 
@@ -166,10 +167,10 @@ export default function About() {
       </Card>
     </div>
   </div>
-</section>
+    </section>
 
       {/* How It Works Section */}
-      <section className="py-20 px-6 bg-slate-100">
+     <section className="py-20 px-6 bg-slate-100">
   <div className="max-w-7xl mx-auto">
     <div className="text-center mb-16">
       <h2 className="text-4xl font-bold mb-4 text-slate-900">
@@ -245,6 +246,7 @@ export default function About() {
   </div>
 </section>
 
+
       {/* Impact Section */}
       <section className="py-20 px-6 bg-white border-y border-slate-200">
         <div className="max-w-4xl mx-auto text-center">
@@ -272,68 +274,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* Footer */}
-      {/* <footer className="bg-slate-100 py-16 px-6 border-t border-slate-200">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12">
-            <div>
-              <h3 className="text-2xl font-bold mb-6 text-slate-900">
-                Contact Us
-              </h3>
-              <form className="space-y-4">
-                <Input placeholder="Your Name" className="bg-white" />
-                <Input
-                  type="email"
-                  placeholder="Your Email"
-                  className="bg-white"
-                />
-                <Textarea
-                  placeholder="Your Message"
-                  rows={4}
-                  className="bg-white"
-                />
-                <Button
-                  type="submit"
-                  className="w-full bg-blue-600 hover:bg-blue-700 text-white"
-                >
-                  Send Message
-                </Button>
-              </form>
-            </div>
-
-            <div>
-              <div className="mb-8">
-                <h3 className="text-2xl font-bold mb-4 text-slate-900">
-                  Mine Vision AI
-                </h3>
-                <p className="text-slate-600">
-                  Enhancing mine safety through advanced AI-powered rockfall
-                  prediction and monitoring systems.
-                </p>
-              </div>
-
-              <div className="flex flex-wrap gap-6 text-sm">
-                <a href="#" className="text-slate-600 hover:text-blue-600 transition-colors">
-                  Home
-                </a>
-                <a href="#" className="text-slate-600 hover:text-blue-600 transition-colors">
-                  Dashboard
-                </a>
-                <a href="#" className="text-slate-600 hover:text-blue-600 transition-colors">
-                  Contact
-                </a>
-                <a href="#" className="text-slate-600 hover:text-blue-600 transition-colors">
-                  Privacy Policy
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="mt-12 pt-8 border-t border-slate-200 text-center text-slate-500">
-            &copy; 2024 Mine Vision AI. All rights reserved.
-          </div>
-        </div>
-      </footer> */}
+      
     </div>
   );
 }
