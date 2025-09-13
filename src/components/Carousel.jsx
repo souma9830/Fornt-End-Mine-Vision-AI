@@ -10,11 +10,11 @@ function Carousel() {
   ];
 
   const images = [
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN-JW8TcwRNs_dP90miTrZVLJzbVaJS5d4FQ&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTszI12Ryn3zTRP_s6Av1w3AaAzUq4fK2cDhQ&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFpr3dav9Nbsl2ZMW2hl_cBU0c010tecb5pg&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9inUkXW9JFnhAhccRa62kfBSZUosZK0cNIQ&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-If76lxr6JjEFNyRITIoU-quCT5uiDtvzJQ&s",
+    "https://as1.ftcdn.net/v2/jpg/15/11/82/04/1000_F_1511820404_yb4odCc5yXeXqX7w7dCZMef85AR2y4n7.jpg",
+    "https://as2.ftcdn.net/v2/jpg/05/56/44/23/1000_F_556442369_o0bAAu1U6cHGszoLbrDqAuR0IsLapqEf.jpg",
+    "https://as1.ftcdn.net/v2/jpg/15/07/10/12/1000_F_1507101211_dfRy5yGnw0Ar68DZxvXzGRK6nv3WjHWE.jpg",
+    "https://as2.ftcdn.net/v2/jpg/07/07/09/95/1000_F_707099561_KAl9aeWiFoX9jRKsvMZbC8swvdLIt9Tr.jpg",
+    "https://t3.ftcdn.net/jpg/10/10/24/06/240_F_1010240604_qccWV8PwaPThkknxXDf84XUSPhQnmaGd.jpg",
   ];
 
   const [currentNewsIndex, setCurrentNewsIndex] = useState(0);
@@ -62,11 +62,12 @@ function Carousel() {
                   index === currentImageIndex ? "opacity-100" : "opacity-0"
                 }`}
               >
-                <img
-                  src={image}
+              <img
+                 src={image}
                   alt={`Mine monitoring system ${index + 1}`}
-                  className="w-full h-full bg-center bg-cover"
-                />
+                 className="object-cover object-center w-full h-full rounded-xl"
+              />
+
               </div>
             ))}
             <button
